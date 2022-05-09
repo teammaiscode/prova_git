@@ -1,0 +1,796 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500,700');
+/*Principais
+-------------------------------------------------------------- */
+ 	body{-webkit-font-smoothing:auto; color:#000; font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 150%; font-weight: 300 }
+	h1{font-family: 'Roboto', sans-serif; font-size: 34px; color: #2C5297; }
+	h2{font-family: 'Roboto', sans-serif; font-size: 26px; color: #2C5297; }
+	h3{font-family: 'Roboto', sans-serif; font-size: 22px; color: #2C5297; }
+	h4{font-family: 'Roboto', sans-serif; font-size: 20px; color: #2C5297; }
+	h5{font-family: 'Roboto', sans-serif; font-size: 18px; color: #2C5297; }
+	h6{font-family: 'Roboto', sans-serif; font-size: 14px; color: #2C5297; }
+	p{color:#000; font-family: 'Roboto', sans-serif; font-size: 12px; line-height: 150%; font-weight: 300}
+	a{color:#000; font-family: 'Roboto', sans-serif; font-size: 12px; line-height: 150%; font-weight: 300; text-decoration: none;}
+	a:hover{color:#2C5297 ;text-decoration: none}
+	* a:hover, a:hover{color:#2C5297 ;text-decoration: none}
+	a:visited{text-decoration: none}
+	a:focus, *:focus{box-shadow: none!important; outline: none!important; text-decoration: none}
+	img{max-width: 100%; height: auto}
+
+	
+
+	
+/* WordPress Core 
+/---------------------------------------------------------------------------- */
+	.alignnone {margin: 5px 20px 20px 0;}
+	.aligncenter,div.aligncenter {display: block;margin: 5px auto 5px auto;}
+	.alignright {float:right;margin: 5px 0 20px 20px;}
+	.alignleft {float: left;margin: 5px 20px 20px 0;}
+	a img.alignright {float: right;margin: 5px 0 20px 20px;}
+	a img.alignnone {margin: 5px 20px 20px 0;}
+	a img.alignleft {float: left;margin: 5px 20px 20px 0;}
+	a img.aligncenter {display: block;margin-left: auto;margin-right: auto}
+	.wp-caption {background: #fff;border: 1px solid #f0f0f0;max-width: 96%; /* Image does not overflow the content area */padding: 15px 3px 10px;text-align: center;}
+	.wp-caption.alignnone {margin: 5px 20px 20px 0;}
+	.wp-caption.alignleft {margin: 5px 20px 20px 0;}
+	.wp-caption.alignright {margin: 5px 0 20px 20px;}
+	.wp-caption img {border: 0 none;height: auto;margin: 0;max-width: 98.5%;padding: 0;width: auto;}
+	.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;margin: 0;padding: 0 4px 5px;}
+
+/* Home
+/---------------------------------------------------------------------------- */
+	header{padding: 0px 0px;min-height: 700px;}
+	header #menu{    margin-top: 27px;}
+	header ul li a{font-size: 13px; text-transform: uppercase; color: #fff; font-weight: 500; margin-right: 15px}
+	header ul li a:hover{color: #1BB7CF}
+	header #menu ul li {display: inline-block;}
+	.chamadahome{
+		margin-top: 10%;
+	    color: #fff;
+	    font-size: 31px;
+	    font-weight: 500;
+	    line-height: 42px;
+	    text-transform: uppercase; 
+	}
+
+	.imgImo{
+		height: 200px;
+    	width: 100%;
+    	background-repeat: no-repeat !important;
+    	background-size: cover !important;
+	} 
+	.sempadding{
+		padding: 0;
+	}
+	.navbar-default{
+		background-color: #000;
+		border: none;
+		-webkit-box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		padding-top: 0px;
+		height: 80px;
+	}
+	.current-menu-item a{
+		color: red;
+	}
+	.tooltip-inner{
+		width: 300px;
+	}
+	.seta{
+		background-color: #fff;
+	    width: 56px;
+	    border-radius: 56px;
+	    text-align: center;
+	    line-height: 5px;
+	    padding-top: 12px;
+	    padding-bottom: 7px;
+	    margin: auto;
+	    font-size: 35px;
+	    margin-top: -53px;
+	   	-webkit-box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		box-shadow: 0px 5px 19px -1px rgba(0,0,0,0.75);
+		color: red;
+	}
+	#produtos{
+		background-color: #ebe9eb;
+	}
+	.bttBuscaFiltro{
+	    float: right;
+		margin-top: 15px;
+	}
+	#produtos h2, #sobre h2, #contatobg h2{
+		text-transform: uppercase;
+	    font-weight: 700;
+	    color: red;
+	    font-size: 35px;
+	}
+	#produtos2{
+		background-color: #ebe9eb;
+	}
+	#produtos2 h2, #sobre h2, #contatobg h2{
+		text-transform: uppercase;
+	    font-weight: 700;
+	    color: red;
+	    font-size: 35px;
+	}
+	.detImoveis{
+		margin-top: 50px;
+	}
+	.cxproduto h4{
+		font-size: 15px;
+	    color: red;
+	    font-weight: 700;
+	    margin-bottom: 0;
+	}
+	.spbairro{
+		font-size: 12px;
+		color: #000;
+		font-weight: 700;
+	}
+	.spTipo{
+		font-size: 12px;
+		color: #000;
+		display: block;
+	} 
+	.spTipo a{
+		font-size: 11px;
+		padding: 0;
+    	line-height: 10px;
+	}
+	.spqualidades{
+		font-size: 12px;
+		color: #000;
+		font-weight: 700;
+	}
+	.ulqldades{
+	    list-style: none;
+	    padding: 0;
+	    font-size: 10px;
+	    font-weight: 700;
+	    margin-bottom: 0;
+	}
+	.ulqldades li{
+		display: inline-block;
+	}
+	.linkvjmais{
+		float: right;
+	}
+	.bttpadraocenter{
+		background-color: red;
+	    padding: 13px;
+	    display: block;
+	    width: 150px;
+	    margin: 50px auto;
+	    color: #fff;
+	    border-radius: 8px;
+	    font-weight: 700;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	}
+	#sobre{
+		padding: 90px 0;
+	}
+	#sobre .imgImo{
+		height: 390px;
+	    background-position: center !important;
+	    background-size: contain !important;
+	}
+	#sobre h2{
+		letter-spacing: 7px;
+	}
+	#sobre p{
+		font-size: 17px;
+	}
+	#sobre .lkSobre{
+		background-color: red;
+	    padding: 13px;
+	    display: block;
+	    width: 150px;
+	    margin: 50px 0;
+	    border-radius: 8px;
+	}
+	.lkSobre a{
+		color: #fff;
+		font-weight: 700;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	}
+
+	#contatobg{
+		padding-top: 30px;
+		background-color: #ebe9eb;
+		padding-bottom: 80px;
+	}
+	.bgpreto{
+		background-color: #000;
+		min-height: 460px;
+	}
+	.bgpreto p{
+		color: #fff;
+		font-size: 14px;
+	}
+	.paddig20{
+		padding: 55px;
+	}
+	#contatobg h2{
+		margin-bottom: 70px;
+	}
+	#contato input, #contato textarea{
+		width: 100%;
+		padding: 7px;
+		margin-bottom: 5px;
+	}
+	#contato button{
+	    background-color: red;
+	    padding: 7px;
+	    color: #fff;
+	    font-weight: 700;
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    border: none;
+	    width: 82px;
+	    float: right;
+	}
+	.logoface{
+		background: url(../img/faceTopo.png);
+	    width: 14px;
+	    height: 18px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    display: inline-block;
+	    background-position: center;
+	    padding-top: 12px;
+	}
+
+	footer{
+		background: url('../img/rodape.jpg');
+		min-height: 600px;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding-top: 60px;
+	}
+	footer p{
+		color: #fff;
+		font-size: 18px;
+	}
+	footer h5{
+		color: #fff;
+		font-size: 22px;
+    	text-transform: uppercase;
+	}
+	.logoRodape{
+		margin-bottom: 70px;
+	}
+	.logoinstaRodape{
+		background: url('../img/instaRodape.png');
+		width: 62px;
+	    height: 65px;
+	    display: inline-block;
+	    background-repeat: no-repeat;
+	}
+	.logofacerodape{
+		background: url('../img/faceRodape.png');
+		width: 43px;
+	    height: 65px;
+	    display: inline-block;
+	    background-repeat: no-repeat;
+	    border-right: 1px solid #fff;
+	}
+	.redess{
+		margin-top: 25px;
+	}
+	.logoMaisCodeRodape{
+		background: url('../img/marcaMaiscode2.png');
+		height: 50px;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	    margin-top: 50px;
+	}
+	.filtroBuscaHome{
+		color: #000;
+	    text-transform: initial;
+	    font-size: 17px;
+	    display: block;
+	}
+	.fundobuscahome{
+		background-color: rgba(255, 255, 255, 0.4);
+		border-radius: 4px;
+	}
+	#divbuscahome .nav-tabs>li>a{
+		color: #363636;
+	}
+	#divbuscahome .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+		color: #000;
+    	cursor: default;
+    	background-color: #fff;
+    	border: 1px solid #ddd;
+    	border-bottom-color: transparent
+	}
+	.fundotabhome{
+		padding: 25px 0;
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius:0 0 5px 5px;
+	}
+
+	/* googlemapas */
+
+	iframe[src^='https://www.google.com/maps/'] {
+		width: 100%;
+		height: 550px;
+	}
+
+	/* sugestões */
+
+	.sugestoes{
+		padding: 20px;
+		
+	}
+
+/* Pagina Sobre
+/---------------------------------------------------------------------------- */
+	#sobreHeader h1{
+		color: red;
+		font-weight: 700;
+	}
+	#sobreHeader{padding: 0px 0px;min-height: 400px;background-position: bottom !important;}
+	.chamadaSobre{
+	    color: #fff;
+	    font-size: 31px;
+	    font-weight: 500;
+	    line-height: 42px;
+	    text-transform: uppercase; 
+	}
+	#quemSomos{
+		margin-top: 50px;
+    	margin-bottom: 80px;
+	}
+	#quemSomos h2{
+		font-weight: 700;
+	    text-transform: uppercase;
+	    color: red;
+	}
+	#mvv h3{
+		font-weight: 700;
+	    text-transform: uppercase;
+	    color: red;
+	    font-size: 24px;
+	}
+	.imgmvv{
+	    height: 102px;
+	}
+	#mvv p, #quemSomos p{
+		font-size: 16px;
+	}
+	#mvv{
+		margin-bottom: 80px;
+	}
+
+	.chamadaSobre h2{color: #FFF; text-shadow: 2px 2px 15px #000;}
+
+
+/* Pagina Archive Imoveis
+/---------------------------------------------------------------------------- */
+.imgarchive{
+	height: 300px;
+    width: 100%;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.cxprodutoArchive{
+	background: #fff;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+.cxprodutoArchive h2{
+	border: 1px solid red;
+	display: table;
+	margin-left: -90px;
+	padding: 6px;
+	background: #fff;
+	font-size: 31px !important;
+}
+.iconArq{
+	width: 36px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat !important;
+}
+.iconQuarto{
+	background: url('../img/iconQuarto.png');
+}
+.iconSuite{
+	background: url('../img/iconSuite.png');
+}
+.iconArea{
+	background: url('../img/iconArea.png');
+}
+.iconCarro{
+	background: url('../img/iconCarro.png');
+}
+.ulIcons{
+    list-style: none;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.ulIcons li{
+	display: block;
+	font-size: 14px;
+}
+.lnkDetalhes a{
+	    background: red;
+    padding: 7px 15px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.lnkDetalhes{
+	float: right;
+}
+.textoIm{
+	min-height: 128px;
+}
+.btn-white:hover{background-color:#c6c6c6 ;border-color:#c6c6c6 ;}
+.btn-white{background-color:#fff ;border-color:#c6c6c6;color: #000;}
+
+.filtroBusca{
+	color: #000;
+    text-transform: initial;
+    font-size: 17px;
+    display: block;
+}
+#pesquisa{
+	margin-bottom: 30px;
+}
+#tipoSel, #txtbusca, #tipoSelMapa, #motivoSel{
+	 width: 100%;
+    border: 1px solid #c6c6c6;
+    padding: 4px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 14px;
+    height: 39px;
+    }
+.nav-tabs>li>a{
+	color: #c6c6c6;
+}
+#uwpqsf_id{
+	border: none;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .btn-primary:hover, .btn-primary.active:hover, .btn-primary.active:focus,.btn-primary.active:focus,
+.btn-block, .btn-block:focus
+{
+	background-color: red;
+    border-color: red;
+}
+
+
+#produtosSingle{
+		background-color: #ebe9eb;
+	}
+
+	#produtosSingle h4 {
+    	font-size: 15px;
+    	color: red;
+	}
+
+.spEndereco{
+	font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 3px;
+}
+
+.bancos{
+	padding: 0;
+}
+
+.bancos li{
+	width: 30px;
+	margin: 5px 0;
+}
+#loading{
+	position: absolute;
+    top: 0;
+    background: white;
+    width: 100%;
+    height: 500px;
+    z-index: 100000;
+    opacity: 0.6;
+    left: 0;
+    display: none;
+    padding: 30% 50%; 
+} 
+
+
+/* Mapa
+/---------------------------------------------------------------------------- */
+img[src*="map.png"]{
+	max-width: 115%;
+	margin-bottom: 20px;
+}
+
+ #mapa{
+ 	padding: 35px 0px;
+ }
+
+ul#map {display: block; margin: 0; padding: 0;    width: 580px;
+    height: 513px; background-image: url('../img/map.png');background-position: center;
+    background-repeat: no-repeat;    margin-bottom: 20px;
+	
+}
+
+/*.Mapa_CG {
+	background: url('../img/Mapa_CG.svg');
+	
+}*/
+
+	
+	.st0{fill:#99CC99;stroke:#000000;stroke-width:0.3189;stroke-linecap:round;stroke-linejoin:round; transition: 0.7s;}
+	.st0:hover{fill:red;}
+	.st1{fill:none;stroke:#009035;stroke-width:0.162;stroke-linejoin:bevel;}
+	.st2{fill:none;stroke:#009035;stroke-width:0.1619;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{font-family:'Roboto', sans-serif; font-weight: 700;}
+	.st4{font-size:5px;}
+	.st5{font-family:'Roboto', sans-serif; font-weight: 900;}
+	.st6{font-size:45%;}
+	.st7{enable-background:new    ;}
+	
+/* Single
+/---------------------------------------------------------------------------- */
+
+#singleHeader{padding: 0px 0px;min-height: 200px;background-position: bottom !important;}
+#singleHeader h1{color: red;font-weight: 700;}
+.cxprodutoSingle{
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.cxprodutoSingle h2{
+	border: 1px solid red;
+	display: table;
+	padding: 6px;
+	background: #fff;
+	font-size: 31px !important;
+	color: red;
+}
+.cxprodutoSingle h3{
+	color: #000;
+	}
+.cxprodutoSingle ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+#galleryWrapper ul li{
+	margin:0;	
+	position: relative;
+}
+
+#map-canvas{
+	width: 100%;
+    height: 560px;
+}
+.janelaMapa{
+	width: 350px;
+}
+
+.cxmapa{
+	padding-top: 40px;
+}
+.tituloMapa{
+	background-color: red;
+    display: inline-block;
+    padding: 7px 14px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.tituloMapa h3{
+	color: #fff;
+	margin: 0;
+}
+
+#contato-imoveis{
+
+}
+#contato-imoveis input[type="text"], #contato-imoveis input[type="email"], #contato-imoveis textarea{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#contato-imoveis .inbound-button-submit {
+    font-size: 16px;
+    background: red;
+    border: none;
+    color: #fff;
+    padding: 5px 16px;
+    float: right;
+}
+
+a.fancybox{
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    color: #fff;
+    font-size: 35px;
+    transition: 1s;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Paginação
+/---------------------------------------------------------------------------- */
+
+.paginacao a{
+	font-size: 15px;
+    font-weight: 700;
+}
+.paginacao .active{
+	background: red;
+    border-radius: 15px;
+}
+.paginacao .active a{
+	color: #fff;
+}
+.paginacao .txt{
+	    background-color: red;
+    border-radius: 5px;
+    padding: 3px 9px;
+}
+.paginacao .txt a{
+	color: #fff;
+	font-size: 16px;
+}
+
+.aviso{
+	    color: red;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+/*  Min Width 1200px    */
+	@media (min-width: 1700px) {
+		header ul li a{margin:0 8px;}
+		.corpoBv{height: 800px;}
+		header{min-height: 870px;}
+		.corpoLoja{height: 820px;}
+		.corpoGeleia{height: 810px;}
+		.corpoCharuto {height: 800px;}
+	}
+/*  Min Width 1024px Max Width 1199px   */
+	@media (min-width: 1024px) and (max-width: 1199px) {
+		header ul li a{margin:0 8px;}
+
+
+
+
+		.mapOver #overlaysegredo {
+    width: 316px;
+    height: 176px;
+    background-size: 350px;
+    margin-left: 224px;
+    margin-top: -7px;
+}
+.mapOver #overlayprosa {
+    width: 232px;
+    height: 239px;
+    background-size: 350px;
+    background-position: -28px -1678px;
+    margin-left: 392px;
+    margin-top: 18px;
+}
+
+.mapOver #overlaycentro {
+    width: 164px;
+    height: 130px;
+    background-position: -15px -815px;
+    margin-top: 155px;
+    background-size: 350px;
+    margin-left: 257px;
+}
+.mapOver #overlaybandeira {
+    width: 261px;
+    height: 315px;
+    background-size: 350px;
+    background-position: -30px -986px;
+    margin-left: 350px;
+    margin-top: 234px;
+}
+.mapOver #overlayanhanduizinho {
+    width: 214px;
+    height: 293px;
+    background-size: 350px;
+    background-position: -23px -1357px;
+    margin-left: 215px;
+    margin-top: 258px;
+}
+.mapOver #overlaylagoa {
+    width: 194px;
+    height: 255px;
+    background-size: 350px;
+    background-position: -17px -518px;
+    margin-left: 121px;
+    margin-top: 211px;
+}
+.mapOver #overlayimbirussu {
+    width: 327px;
+    height: 290px;
+    background-size: 350px;
+    background-position: -2px -222px;
+    margin-left: -2px;
+    margin-top: 119px;
+}
+	}
+/*  Min Width 768px Max Width 991px */
+	@media (min-width: 992px) and (max-width: 1023px) {
+		header ul li a{margin:0 8px;}
+	}
+/*  Min Width 768px Max Width 991px */
+	@media (min-width: 768px) and (max-width: 991px) {
+		.blocochamada {
+		    margin-top: 100px;
+		    text-align: right;
+		    padding-left: 50%;
+
+		}
+
+		.cxprodutoArchive h2{margin-left: 0;}
+		.cxprodutoArchive{display: inline-table; margin-bottom: 30px;}
+		.lnkDetalhes{margin-bottom: 15px;
+				    display: block;
+				    text-align: center;
+				    float:initial;
+				}
+		.detImoveis, .padding0resp{
+			padding: 0;
+		}
+		
+	}
+/*  Max Width 767px */
+	@media (max-width: 767px) {
+		header #menu{
+		margin: 10px 0 0 0; display: none; 
+	    position: absolute;
+	    width: 100%;
+	    background: #000;}
+
+		header #menu li {display: block!important; margin:0; padding: 0;}
+		header #menu li a, header#home #menu li a{display: block; padding:10px; margin:0; border-top: 1px solid #fff; text-align: center; }
+		header button{width: 45px; height: 45px; border:1px solid #fff; background: none; float: right; border-radius: 4px; margin: 8px 10px 0 0}
+		header button span{width: 100%; height: 4px; background: #fff; margin:3px 0; display: block;}
+		.cxprodutoArchive h2{margin-left: 0;}
+		.cxprodutoArchive{display: inline-table; margin-bottom: 20px;}
+		.lnkDetalhes{margin-bottom: 15px;
+				    display: block;
+				    text-align: center;
+				    float:initial;
+				}
+		.detImoveis, .padding0resp{
+			padding: 0;
+		}
+		
+	}   
+/*  Entre 480px a 766px */
+	@media (min-width: 480px) and (max-width: 766px) {
+		
+	}
+/* Maximo 479px */
+	@media (max-width: 480px) {
+		.st4{display: none;}
+
+	}
+	@media (min-width: 319px) and (max-width: 479px)) {
+		
+	}

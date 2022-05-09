@@ -1,0 +1,24 @@
+[04-Mar-2018 07:08:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/404.php on line 1
+[04-Mar-2018 07:08:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/404.php on line 1
+[25-Mar-2018 06:48:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php on line 2
+[27-Mar-2018 09:38:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php on line 2
+[27-Mar-2018 09:38:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/header.php on line 2
+[29-Mar-2018 00:36:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/kanoimoveis/public_html/wp-content/themes/MaisCode_KanoImoveis/index.php on line 1
